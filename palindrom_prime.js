@@ -8,10 +8,10 @@ console.log("yes")
 }else{
 console.log("No")
 }
-}
 
 
 
+let num=13;
 let count=0;
 for(i=0;i<=num;i++){
 if(num%i==0){
@@ -19,9 +19,9 @@ count++;
 }
 }
 if(count==2){
-console.log(i+"is prime);
+console.log(i,"is prime);
 }else{
-console.log(i+"is not prime")
+console.log(i,"is not prime")
 }
 
 
